@@ -1,0 +1,42 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+#container {
+    padding: 30px;
+    
+}
+
+.row {
+    display: flex;
+}
+
+.row-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    margin: 12px;
+ 
+   
+}
+
+.icon-container {
+    box-shadow: rgb(198, 198, 198) 0px 0px 2px 1px;
+    border-radius: 15px;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+}
+
+.icon-container:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+    transition: 0.25s all;
+}
+
+i {
+    font-size: 30px;
+}
